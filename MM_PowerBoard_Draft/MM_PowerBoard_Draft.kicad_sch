@@ -8731,7 +8731,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1e-7"
+		(property "Value" "2200e-12"
 			(at 144.78 120.6499 0)
 			(effects
 				(font
@@ -10452,7 +10452,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1e-7"
 			(at 162.56 146.0499 0)
 			(effects
 				(font
@@ -12374,7 +12374,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1e-7"
 			(at 165.1 109.2199 0)
 			(effects
 				(font
@@ -13221,7 +13221,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1e-7"
+		(property "Value" "2200e-9"
 			(at 142.24 157.4799 0)
 			(effects
 				(font
