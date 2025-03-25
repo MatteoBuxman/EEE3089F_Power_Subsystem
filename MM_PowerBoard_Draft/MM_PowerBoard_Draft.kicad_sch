@@ -3212,6 +3212,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -4616,6 +4778,143 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Switching:TPS613222ADBZ"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TPS613222ADBZ"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps61322.pdf"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1.8A Step-Up Converter, 5V Output Voltage, 0.9-5.5V Input Voltage, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Boost converter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS613222ADBZ_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS613222ADBZ_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6107,7 +6406,7 @@
 	)
 	(text "Block G: Load Switching"
 		(exclude_from_sim no)
-		(at 116.078 117.348 0)
+		(at 138.684 92.964 0)
 		(effects
 			(font
 				(size 0.9906 0.9906)
@@ -6205,6 +6504,26 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 123.19) (xy 153.67 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3340bb-41d7-437d-9fab-4f27bdfe1033")
+	)
+	(wire
+		(pts
+			(xy 118.11 123.19) (xy 119.38 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1654b500-3331-4eac-9d81-37582412a004")
+	)
+	(wire
+		(pts
 			(xy 45.72 64.77) (xy 45.72 71.12)
 		)
 		(stroke
@@ -6252,6 +6571,16 @@
 			(type default)
 		)
 		(uuid "267c8df3-beb9-4e29-a687-ee2f3bc04606")
+	)
+	(wire
+		(pts
+			(xy 93.98 36.83) (xy 95.25 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2842a6dd-84b3-4f81-8a23-db1766887512")
 	)
 	(wire
 		(pts
@@ -6415,6 +6744,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 123.19) (xy 118.11 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ba88a3-f7f2-480d-8a6f-bde226974e53")
+	)
+	(wire
+		(pts
 			(xy 73.66 143.51) (xy 100.33 143.51)
 		)
 		(stroke
@@ -6522,6 +6861,26 @@
 			(type default)
 		)
 		(uuid "91914d87-3d4d-4d5c-9199-2bbe04eedd79")
+	)
+	(wire
+		(pts
+			(xy 152.4 123.19) (xy 153.67 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94887194-1960-480b-999b-5383dbd8962c")
+	)
+	(wire
+		(pts
+			(xy 119.38 123.19) (xy 119.38 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bcc200f-a3ae-4749-8068-d84ee9d1a851")
 	)
 	(wire
 		(pts
@@ -6652,6 +7011,16 @@
 			(type default)
 		)
 		(uuid "de4c7d93-e287-4357-96fa-04dced47d5c9")
+	)
+	(wire
+		(pts
+			(xy 152.4 123.19) (xy 152.4 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa06827-bdb4-47c4-be4d-a58dd58d9835")
 	)
 	(wire
 		(pts
@@ -6793,6 +7162,26 @@
 		)
 		(uuid "0bac65fb-6f83-4d2d-bbf2-ab3652ca2770")
 	)
+	(label "CTRL_EXT_LOAD2"
+		(at 153.67 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c96258c-5820-44ef-8282-1559bfaeafbd")
+	)
+	(label "5V"
+		(at 110.49 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ca35dd3-8637-4993-8193-130c5c2ef4d3")
+	)
 	(label "SYS_BAT"
 		(at 227.33 26.67 0)
 		(effects
@@ -6893,6 +7282,16 @@
 		)
 		(uuid "215465da-775c-4fbb-bf41-b41f8b7ddea3")
 	)
+	(label "CTRL_EXT_LOAD1"
+		(at 119.38 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2186c8ae-567f-4e41-8792-ac2fecc15f77")
+	)
 	(label "MOTOR3_CTRL1"
 		(at 241.3 135.89 180)
 		(effects
@@ -6914,7 +7313,7 @@
 		(uuid "2570bb8b-ddd9-4343-a765-32bbd957621c")
 	)
 	(label "5V"
-		(at 106.68 33.02 0)
+		(at -55.88 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7094,7 +7493,7 @@
 		(uuid "4630dd3f-0082-4f08-8401-0cb7126affe3")
 	)
 	(label "Out"
-		(at 86.36 33.02 180)
+		(at -76.2 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7162,6 +7561,16 @@
 			(justify right bottom)
 		)
 		(uuid "4f897e4f-4954-4134-9e7e-7c205016d87c")
+	)
+	(label "5V"
+		(at 161.29 123.19 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "535cde47-432f-4295-82b9-4cd6c67164aa")
 	)
 	(label "BAT_POS"
 		(at 210.82 105.41 0)
@@ -7283,6 +7692,16 @@
 		)
 		(uuid "8c3b661c-061b-4c2d-969a-90117b37ebf2")
 	)
+	(label "Out"
+		(at 95.25 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f73c64a-1686-455f-ad5f-cbf65d2fedf7")
+	)
 	(label "MOTOR2_B_OUT"
 		(at 256.54 24.13 180)
 		(effects
@@ -7292,6 +7711,16 @@
 			(justify right bottom)
 		)
 		(uuid "8f9b7539-0baf-46b8-9283-003fedee46e7")
+	)
+	(label "EXT_LOAD1_OUT"
+		(at 127 113.03 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "955c548e-794a-41ae-8bd9-32717fe159d8")
 	)
 	(label "BAT_POS"
 		(at 264.16 105.41 0)
@@ -7392,6 +7821,16 @@
 			(justify right bottom)
 		)
 		(uuid "a39ffe9c-141b-4a99-a377-98455960a6db")
+	)
+	(label "5V"
+		(at 115.57 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a64b3662-52d2-4770-954a-3fe3219ed9b6")
 	)
 	(label "3V3"
 		(at 82.55 90.17 90)
@@ -7563,6 +8002,16 @@
 		)
 		(uuid "d0b1ecc9-661c-42ae-9c13-c3bcd34c2658")
 	)
+	(label "EXT_LOAD2_OUT"
+		(at 161.29 113.03 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4f531e5-3661-4bb2-86c1-726725822f50")
+	)
 	(label "MOTOR4_A_OUT"
 		(at 256.54 26.67 180)
 		(effects
@@ -7572,6 +8021,16 @@
 			(justify right bottom)
 		)
 		(uuid "d957a4fe-4b55-45d0-87c4-c1eb9b7cb45b")
+	)
+	(label "Out"
+		(at 86.36 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dc45fd42-ec5f-43b3-bfdb-3b93d83d5e5e")
 	)
 	(label "3V3"
 		(at 151.13 38.1 0)
@@ -7623,6 +8082,16 @@
 		)
 		(uuid "eee05886-de59-40c3-8bf9-80899bf004f9")
 	)
+	(label "5V"
+		(at 127 123.19 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f06a08f7-967f-4155-9168-95e955419bfc")
+	)
 	(label "Sense_-"
 		(at 113.03 184.15 180)
 		(effects
@@ -7662,6 +8131,16 @@
 			(justify left bottom)
 		)
 		(uuid "f434770b-3133-4d00-83fd-e877a37363e0")
+	)
+	(label "5V"
+		(at 144.78 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb090c9f-747f-4a06-aed8-68c789a26fdc")
 	)
 	(label "MOTOR2_A_OUT"
 		(at 269.24 24.13 0)
@@ -8718,6 +9197,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 124.46 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a1114db-d72b-4cf4-b6b2-81737fa2370f")
+		(property "Reference" "Q3"
+			(at 130.81 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 130.81 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 124.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 124.46 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 124.46 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 124.46 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca5b9c51-0018-494d-b31c-075b1670e669")
+		)
+		(pin "1"
+			(uuid "578e9e07-4390-4e02-a053-64a25f9d7521")
+		)
+		(pin "3"
+			(uuid "8e144c09-4635-489e-8102-6662315d8f4b")
+		)
+		(instances
+			(project ""
+				(path "/93a5b22c-7cc5-496e-8b5a-1b2b26766ffa"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 181.61 67.31 0)
 		(unit 1)
@@ -9101,6 +9680,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 105.41 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61302a0a-415f-4963-a000-b84b07efdbf4")
+		(property "Reference" "#PWR027"
+			(at 105.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "191a7656-9399-4994-8710-2db5bca554b6")
+		)
+		(instances
+			(project ""
+				(path "/93a5b22c-7cc5-496e-8b5a-1b2b26766ffa"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 181.61 27.94 0)
 		(unit 1)
@@ -9235,6 +9880,77 @@
 			(project "MM_PowerBoard_Draft"
 				(path "/93a5b22c-7cc5-496e-8b5a-1b2b26766ffa"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:TPS613222ADBZ")
+		(at 105.41 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65b56327-eaf4-4f36-a4cd-48a11c96ef93")
+		(property "Reference" "U9"
+			(at 105.41 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS613222ADBZ"
+			(at 105.41 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 105.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps61322.pdf"
+			(at 105.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.8A Step-Up Converter, 5V Output Voltage, 0.9-5.5V Input Voltage, SOT-23"
+			(at 105.41 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c28aefa2-e27b-4c2c-9f2d-97165e7ed4e5")
+		)
+		(pin "3"
+			(uuid "21e4ac40-540a-4bed-986d-5c6fd21c3a29")
+		)
+		(pin "2"
+			(uuid "da8629e9-3950-45ee-a6bb-8985e64d07a5")
+		)
+		(instances
+			(project ""
+				(path "/93a5b22c-7cc5-496e-8b5a-1b2b26766ffa"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -9975,6 +10691,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 158.75 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83bd1bc6-6da6-4db4-a7fa-336489e9024f")
+		(property "Reference" "Q4"
+			(at 165.1 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMOS"
+			(at 165.1 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 158.75 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 158.75 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 158.75 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 158.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c10cfc80-f33e-4bbe-823b-ff9ecc36b161")
+		)
+		(pin "1"
+			(uuid "e057b13c-0938-4f35-880b-ac459102d9b6")
+		)
+		(pin "3"
+			(uuid "48e6c6c0-8803-4bca-b7b6-9654f4cf7ce3")
+		)
+		(instances
+			(project "MM_PowerBoard_Draft"
+				(path "/93a5b22c-7cc5-496e-8b5a-1b2b26766ffa"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74HC14D:74HC14D")
 		(at 245.11 78.74 0)
 		(unit 1)
@@ -10145,6 +10961,74 @@
 			(project ""
 				(path "/93a5b22c-7cc5-496e-8b5a-1b2b26766ffa"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 114.3 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99555bfd-b943-4518-a326-39ddbf43b23d")
+		(property "Reference" "R7"
+			(at 114.3 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 114.3 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.554 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 114.3 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "228c316a-1175-46c6-92ca-60e21cd0d939")
+		)
+		(pin "1"
+			(uuid "94f945b9-579b-4aab-8d59-9f8316c60b95")
+		)
+		(instances
+			(project ""
+				(path "/93a5b22c-7cc5-496e-8b5a-1b2b26766ffa"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10622,7 +11506,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:TPS63061")
-		(at 96.52 43.18 0)
+		(at -66.04 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10631,7 +11515,7 @@
 		(fields_autoplaced yes)
 		(uuid "b745ea97-5094-419d-8ff4-692e3cf71693")
 		(property "Reference" "U5"
-			(at 96.52 25.4 0)
+			(at -66.04 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10639,7 +11523,7 @@
 			)
 		)
 		(property "Value" "TPS63061"
-			(at 96.52 27.94 0)
+			(at -66.04 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10647,7 +11531,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Texas_S-PWSON-N10_ThermalVias"
-			(at 96.52 59.69 0)
+			(at -66.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10656,7 +11540,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps63060.pdf"
-			(at 95.25 62.23 0)
+			(at -67.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10665,7 +11549,7 @@
 			)
 		)
 		(property "Description" "Buck-Boost Converter, 2.5-12V Input Voltage, 2-A Switch Current, Fixed 5V Output Voltage, S-PWSON-10"
-			(at 96.52 43.18 0)
+			(at -66.04 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11002,6 +11886,74 @@
 			(project ""
 				(path "/93a5b22c-7cc5-496e-8b5a-1b2b26766ffa"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 90.17 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb4cb7d9-8be5-46b9-a1be-3402de0a4ffb")
+		(property "Reference" "L1"
+			(at 90.17 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 90.17 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 90.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b7edce5-4b7b-4b61-ba6d-da5816b6ab03")
+		)
+		(pin "2"
+			(uuid "1e7be1ed-a1a7-4272-8fd4-bdcf312165dd")
+		)
+		(instances
+			(project ""
+				(path "/93a5b22c-7cc5-496e-8b5a-1b2b26766ffa"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -11650,15 +12602,83 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ecd9011-1b7f-4109-a13d-f5f94516c6e5")
+			(uuid "1ecd9011-1b7f-4109-a13d-f5f94516c6e6")
 		)
 		(pin "2"
-			(uuid "e16b41a2-f938-413b-989b-31a09ead052e")
+			(uuid "e16b41a2-f938-413b-989b-31a09ead052f")
 		)
 		(instances
 			(project ""
 				(path "/93a5b22c-7cc5-496e-8b5a-1b2b26766ffa"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 148.59 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7c72a64-3907-49c8-b493-2baf286df5f0")
+		(property "Reference" "R8"
+			(at 148.59 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 148.59 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.844 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 148.59 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "841404f7-7f3f-4e91-bd5f-9dd766d1ae3f")
+		)
+		(pin "1"
+			(uuid "dd943f70-8512-4722-8894-6cce738f6640")
+		)
+		(instances
+			(project "MM_PowerBoard_Draft"
+				(path "/93a5b22c-7cc5-496e-8b5a-1b2b26766ffa"
+					(reference "R8")
 					(unit 1)
 				)
 			)
