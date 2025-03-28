@@ -537,7 +537,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "MM_PowerBoard_Draft.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
