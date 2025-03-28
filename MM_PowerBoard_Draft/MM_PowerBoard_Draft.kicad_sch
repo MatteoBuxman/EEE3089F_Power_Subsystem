@@ -5792,22 +5792,10 @@
 		(uuid "172ba46f-9326-401f-81b0-1bae663e2259")
 	)
 	(junction
-		(at 165.1 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24fcee73-1390-451a-936f-939a7366585b")
-	)
-	(junction
 		(at 88.9 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25f3382c-effc-468b-a320-fc51fd150391")
-	)
-	(junction
-		(at 161.29 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "658a4c58-9363-4082-9da2-8112069bbb5d")
 	)
 	(junction
 		(at 208.28 105.41)
@@ -5856,18 +5844,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acbbfc8a-6304-4a55-857b-e96aac485f9d")
-	)
-	(junction
-		(at 158.75 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b12ac99c-b03b-4275-9d29-21871b9f2afd")
-	)
-	(junction
-		(at 162.56 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbccd5dd-36e4-4881-8c97-6eb3c54a94f4")
 	)
 	(junction
 		(at 45.72 69.85)
@@ -6179,16 +6155,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 148.59) (xy 166.37 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52d108af-d9af-4b16-870a-77484f77b7e0")
-	)
-	(wire
-		(pts
 			(xy 67.31 125.73) (xy 62.23 125.73)
 		)
 		(stroke
@@ -6329,16 +6295,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 111.76) (xy 168.91 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78d95d37-a72b-4fc3-89d4-fa37fae49e9b")
-	)
-	(wire
-		(pts
 			(xy 256.54 46.99) (xy 237.49 46.99)
 		)
 		(stroke
@@ -6396,16 +6352,6 @@
 			(type default)
 		)
 		(uuid "86f8aeb2-873b-48aa-80a6-f0e3f0566384")
-	)
-	(wire
-		(pts
-			(xy 161.29 104.14) (xy 168.91 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d080ad2-6b2f-4cb4-a9f3-4d8bdcb455d4")
 	)
 	(wire
 		(pts
@@ -6736,16 +6682,6 @@
 			(type default)
 		)
 		(uuid "ed53d8d6-bb46-429e-9a68-a567d3e517fb")
-	)
-	(wire
-		(pts
-			(xy 158.75 140.97) (xy 166.37 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed9592d2-6784-4622-b46f-c5fc1996e351")
 	)
 	(wire
 		(pts
@@ -8618,100 +8554,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 166.37 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13a69743-58cf-4916-a003-fe3a929ca246")
-		(property "Reference" "R7"
-			(at 168.91 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10"
-			(at 168.91 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Custom-Footprints:R0603"
-			(at 167.386 145.034 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 166.37 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 166.37 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 166.37 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 166.37 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4cc9db2a-e011-4db1-b474-4ca8ea6caf72")
-		)
-		(pin "2"
-			(uuid "2c5ff85f-6469-4ae7-9d0d-04416743965e")
-		)
-		(instances
-			(project ""
-				(path "/93a5b22c-7cc5-496e-8b5a-1b2b26766ffa"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 228.6 49.53 90)
 		(unit 1)
@@ -9254,7 +9096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Custom-Footprints:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
 			(at 194.31 84.455 0)
 			(effects
 				(font
@@ -10123,7 +9965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Custom-Footprints:SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 143.51 32.385 0)
 			(effects
 				(font
@@ -11019,7 +10861,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1e-6"
+		(property "Value" "10e-6"
 			(at 162.56 146.0499 0)
 			(effects
 				(font
@@ -13771,100 +13613,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 168.91 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acadc093-24c6-4185-a6db-faf24c88b605")
-		(property "Reference" "R10"
-			(at 171.45 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10"
-			(at 171.45 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Custom-Footprints:R0603"
-			(at 169.926 108.204 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 168.91 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 168.91 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 168.91 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 168.91 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "209079b4-23b0-4cb2-ba1a-06c51039ef8c")
-		)
-		(pin "2"
-			(uuid "6763fd2e-e61f-4c49-a227-cbfc7f7d21bf")
-		)
-		(instances
-			(project "MM_PowerBoard_Draft"
-				(path "/93a5b22c-7cc5-496e-8b5a-1b2b26766ffa"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 124.46 41.91 0)
 		(unit 1)
@@ -14109,7 +13857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1e-6"
+		(property "Value" "10e-6"
 			(at 165.1 109.2199 0)
 			(effects
 				(font
